@@ -85,7 +85,7 @@ nav a {
 }
 
 /*come back to this*/
-hr {
+nav hr {
     width: 15%;
     border: none;
     border-bottom: 3px solid #9b9898;
