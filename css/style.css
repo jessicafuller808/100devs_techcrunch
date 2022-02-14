@@ -25,10 +25,8 @@ hmtl {
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
-body {
- font-size: 62.5%;
-
+html {
+    font-size: 62.5%;
 }
 
 
@@ -36,13 +34,30 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-
+    width: 10%;
+    border: 1px solid black;
 }
 
-footer {
+main {
+    width: 60%;
+    border: 1px solid black;
+}
 
+aside {
+    width: 30;
+    border: 1px solid black;
+}
+
+body main, body aside, body header {
+    float: left;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+.ec{
+    color: orange;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
